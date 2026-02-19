@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Our Story ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Home</a> |
+    <a href="story.html">Our Story</a> |
+    <a href="gallery.html">Gallery</a> |
+    <a href="love.html">Why I Love You</a> |
+    <a href="future.html">Future</a>
+</nav>
+<hr>
+
+<h1>Our Story ❤️</h1>
+
+<p>Amr met Fatma… and the rest is magic ✨</p>
+<p>From 12-12-2024, we started our amazing journey together.</p>
+
+<p>The first day I met you was honestly the best day of my life.  
+I kept trying to get closer to you, teasing you a little here and there…  
+and yes, I was totally, completely smitten! 😍  
+Everything about you was like the moon shining bright — your outfit, your hair, your beautiful features… everything, truly everything. 🌙✨</p>
+
+<p>And I’ll never forget how your laugh made my heart skip a beat,  
+or how your little attitude kept me love you more 😂💖  
+From that day on, I knew you were my everything.</p>
+
+<script>
+function createHeart() {
+    const heart = document.createElement('div');
+    heart.classList.add('heart');
+    heart.style.left = Math.random() * window.innerWidth + 'px';
+    heart.style.animationDuration = (3 + Math.random() * 3) + 's';
+    document.body.appendChild(heart);
+    setTimeout(() => heart.remove(), 6000);
+}
+
+// Create a heart every 500ms
+setInterval(createHeart, 500);
+</script>
+
+</body>
+</html>

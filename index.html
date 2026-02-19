@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>For Fatma ❤️</title>
+</head>
+<head>
+    <title>For Fatma ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Home</a> |
+    <a href="story.html">Our Story</a> |
+    <a href="gallery.html">Gallery</a> |
+    <a href="love.html">Why I Love You</a> |
+    <a href="future.html">Future</a>
+</nav>
+<hr>
+
+<div class="home-message">
+    <h1>💖 Happy Valentine’s Day, Fatma! 💖</h1>
+    <p>From Amr, with all my love ❤️</p>
+    <p>Every day with you feels magical, but today is extra special! 🌹✨</p>
+<p>📅 Since 12-12-2024 💕 Till forever </p>
+
+</div>
+
+</body>
+<script>
+function createHeart() {
+    const heart = document.createElement('div');
+    heart.classList.add('heart');
+    heart.style.left = Math.random() * window.innerWidth + 'px';
+    heart.style.animationDuration = (3 + Math.random() * 3) + 's';
+    document.body.appendChild(heart);
+    setTimeout(() => heart.remove(), 6000);
+}
+
+// Create a heart every 500ms
+setInterval(createHeart, 500);
+</script>
+
+</body>
+</html>

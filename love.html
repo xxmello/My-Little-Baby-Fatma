@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Why I Love You ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Home</a> |
+    <a href="story.html">Our Story</a> |
+    <a href="gallery.html">Gallery</a> |
+    <a href="love.html">Why I Love You</a> |
+    <a href="future.html">Future</a>
+</nav>
+<hr>
+
+<h1>Why I Love You, Fatma ❤️</h1>
+
+<div class="card">
+    <p>😍 Your beautiful face — I could look at you forever.</p>
+    <p>😂 Your laugh — literally my favorite sound in the world.</p>
+    <p>🔥 Your attitude — strong, confident, and a little sassy (but I love it!).</p>
+    <p>💖 Your hugs — they make my day instantly better.</p>
+    <p>🌟 Every little thing you do makes me fall more in love with you.</p>
+    <p>❤️ Honestly… I love everything about you. Every single thing.</p>
+    <p>🤪 Even when you’re teasing me, I secretly love it!</p>
+    <p>😅 And I’m so, so, so, so jealous, Fatma!  
+    Honestly, I’ve never seen anyone more amazing than you.  
+    You are the most beautiful thing in my entire life.  
+    I love your eyes, I love your lips, I love your nose,  
+    I love your legs, I love every single, little thing about you… everything! ❤️</p>
+</div>
+<script>
+function createHeart() {
+    const heart = document.createElement('div');
+    heart.classList.add('heart');
+    heart.style.left = Math.random() * window.innerWidth + 'px';
+    heart.style.animationDuration = (3 + Math.random() * 3) + 's';
+    document.body.appendChild(heart);
+    setTimeout(() => heart.remove(), 6000);
+}
+
+// Create a heart every 500ms
+setInterval(createHeart, 500);
+</script>
+</body>
+</html>
